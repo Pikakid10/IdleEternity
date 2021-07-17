@@ -1,0 +1,4 @@
+import { reducer, initialState } from './reducer';
+
+const App = () => {
+  const [state, dispatch] = useReducer(reducer, initialState);
